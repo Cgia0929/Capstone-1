@@ -36,7 +36,7 @@
 
 h1 {
    color: white;  /* Fallback: assume this color ON TOP of image */
-   background: url(https://2840374.fs1.hubspotusercontent-na1.net/hubfs/2840374/Neighbourhood%20Images%202021/culture-animation_best-q-large-size_v2.webp) repeat;
+   background: url(https://images.unsplash.com/photo-1545231097-cbd796f1d95f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=795&q=80) repeat;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
@@ -100,7 +100,7 @@ h1 {
 }
 
 /*media queries*/
-@media (min-width: 500px){
+@media (min-width: 320px){
 	.logo{
 		max-height: 75%;
 		max-width: 75%;
@@ -145,7 +145,7 @@ h1 {
 	}
 }
 
-@media (min-width: 500px){
+@media (min-width: 576px){
 	.logo{
 		max-height: 75%;
 		max-width: 75%;
@@ -178,7 +178,6 @@ h1 {
 
  	#projects div > h1{
  		font-size: 50px;
- 		min-width: 500px
  		letter-spacing: 8px;
  	}
 
@@ -191,7 +190,7 @@ h1 {
 	}
 }
 
-@media (min-width: 500px){
+@media (min-width: 768px){
 	.logo{
 		max-height: 75%;
 		max-width: 75%;
@@ -223,7 +222,6 @@ h1 {
 
  	#projects div > h1{
  		font-size: 60px;
- 		min-width: 500px
  		letter-spacing: 8px;
  	}
 
@@ -236,7 +234,7 @@ h1 {
 	}
 }
 
-@media (min-width: 500px){
+@media (min-width: 992px){
 	.logo{
 		max-height: 75%;
 		max-width: 75%;
@@ -269,7 +267,6 @@ h1 {
 
  	#projects div > h1{
  		font-size: 72px;
- 		min-width: 500px
  		letter-spacing: 10px;
  	}
 
@@ -278,7 +275,7 @@ h1 {
 	}
 }
 
-@media(min-width: 500px){
+@media(min-width: 1200px){
 	.logo{
 		max-height: 100%;
 		max-width: 100%;
