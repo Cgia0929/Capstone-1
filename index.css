@@ -100,7 +100,7 @@ h1 {
 }
 
 /*media queries*/
-@media (min-width: 320px){
+@media (min-width: 500px){
 	.logo{
 		max-height: 75%;
 		max-width: 75%;
@@ -145,7 +145,7 @@ h1 {
 	}
 }
 
-@media (min-width: 576px){
+@media (min-width: 500px){
 	.logo{
 		max-height: 75%;
 		max-width: 75%;
@@ -178,6 +178,7 @@ h1 {
 
  	#projects div > h1{
  		font-size: 50px;
+ 		min-width: 500px
  		letter-spacing: 8px;
  	}
 
@@ -190,7 +191,7 @@ h1 {
 	}
 }
 
-@media (min-width: 768px){
+@media (min-width: 500px){
 	.logo{
 		max-height: 75%;
 		max-width: 75%;
@@ -222,6 +223,7 @@ h1 {
 
  	#projects div > h1{
  		font-size: 60px;
+ 		min-width: 500px
  		letter-spacing: 8px;
  	}
 
@@ -234,7 +236,7 @@ h1 {
 	}
 }
 
-@media (min-width: 992px){
+@media (min-width: 500px){
 	.logo{
 		max-height: 75%;
 		max-width: 75%;
@@ -267,6 +269,7 @@ h1 {
 
  	#projects div > h1{
  		font-size: 72px;
+ 		min-width: 500px
  		letter-spacing: 10px;
  	}
 
@@ -275,7 +278,7 @@ h1 {
 	}
 }
 
-@media(min-width: 1200px){
+@media(min-width: 500px){
 	.logo{
 		max-height: 100%;
 		max-width: 100%;
