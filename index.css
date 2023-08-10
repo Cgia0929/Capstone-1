@@ -1,292 +1,292 @@
-*{
-	scroll-behavior: smooth;
+* {
+  scroll-behavior: smooth;
 }
-.navbar{
-	min-height: 0px !important;
-}
-
-.navbar-brand{
-	transition: all 1.5s;
+.navbar {
+  min-height: 0px !important;
 }
 
-.navbar-brand:hover{
-	letter-spacing: 10px !important;
-	background-color: white;
+.navbar-brand {
+  transition: all 1.5s;
 }
 
-#navBtn li a{
-	transition: all 0.5s;
+.navbar-brand:hover {
+  letter-spacing: 10px !important;
+  background-color: white;
 }
 
-#navBtn li a:hover{
-	transition: all 0.5s;
-	border-bottom: 2px solid white;
-	letter-spacing: 1px;
+#navBtn li a {
+  transition: all 0.5s;
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link{
-	background-color: transparent;
-	border-bottom: 2px solid white;
-	letter-spacing: 1px;
+#navBtn li a:hover {
+  transition: all 0.5s;
+  border-bottom: 2px solid white;
+  letter-spacing: 1px;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: transparent;
+  border-bottom: 2px solid white;
+  letter-spacing: 1px;
 }
 
 h1 {
-   color: white;  /* Fallback: assume this color ON TOP of image */
-   background: url(https://2840374.fs1.hubspotusercontent-na1.net/hubfs/2840374/Neighbourhood%20Images%202021/culture-animation_best-q-large-size_v2.webp) no-repeat;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
+  color: white; /* Fallback: assume this color ON TOP of image */
+  background: url(https://2840374.fs1.hubspotusercontent-na1.net/hubfs/2840374/Neighbourhood%20Images%202021/culture-animation_best-q-large-size_v2.webp);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.btn-outline-light:hover{
-	background-color: rgba(255,255,255,0.15);
+.btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
-.footer{
-	min-height: 0px !important;
+.footer {
+  min-height: 0px !important;
 }
 
-.jumbotron{
-	min-height: 100vh;
-	display: flex;
-  	align-items: center;
-  	justify-content: center;
+.jumbotron {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#about{
-	min-height: 100vh;
+#about {
+  min-height: 100vh;
 }
 
-#contact{
-	min-height: 100vh;
+#contact {
+  min-height: 100vh;
 }
 
-#contact div > iframe{
-	left:0;
-	top:0;
-	height:50vh;
-	width: 100%;
-	position:relative;
+#contact div > iframe {
+  left: 0;
+  top: 0;
+  height: 50vh;
+  width: 100%;
+  position: relative;
 }
 
 /*Effects and animations*/
-.parallax{
-	/* The image used */
-	background-image: url("https://images.unsplash.com/photo-1524439188326-e47322d1cef2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80");
+.parallax {
+  /* The image used */
+  background-image: url('https://images.unsplash.com/photo-1524439188326-e47322d1cef2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
 
-	/* Set a specific height */
-	min-height: 500px;
+  /* Set a specific height */
+  min-height: 500px;
 
-	/* Create the parallax scrolling effect */
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.fadein{
-	animation-name: home;
-	animation-timing-function:ease;
-	animation-duration: 3s;
-	
+.fadein {
+  animation-name: home;
+  animation-timing-function: ease;
+  animation-duration: 3s;
 }
 
-@keyframes home{
-	from{
-		opacity: 0;
-	}
-	to{
-		opacity: 1;
-	}
+@keyframes home {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 /*media queries*/
-@media (min-width: 320px){
-	.logo{
-		max-height: 75%;
-		max-width: 75%;
-		position:relative;
-	}
+@media (min-width: 320px) {
+  .logo {
+    max-height: 75%;
+    max-width: 75%;
+    position: relative;
+  }
 
-	#welcome h1{
-		font-size: 56px;
-	}
-	
-	#welcome p{
-		font-size: 16px;
-	}
+  #welcome h1 {
+    font-size: 56px;
+  }
 
-	#about div+div{
- 		text-align: center;
- 	}
+  #welcome p {
+    font-size: 16px;
+  }
 
- 	#about div+div > img{
- 		width: 100%
- 	}
+  #about div + div {
+    text-align: center;
+  }
 
- 	#about div+div > h1{
- 		font-size: 50px;
- 	}
+  #about div + div > img {
+    width: 100%;
+  }
 
- 	#about div+div > p{
- 		font-size: 14px;
- 	}
+  #about div + div > h1 {
+    font-size: 50px;
+  }
 
- 	#projects div > h1{
- 		font-size: 40px;
- 		letter-spacing: 5px;
- 	}
+  #about div + div > p {
+    font-size: 14px;
+  }
 
- 	#contact div > h1{
-		font-size: 32px;
-	}
+  #projects div > h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+  }
 
-	.footer .row > div{
-		text-align: center;
-	}
+  #contact div > h1 {
+    font-size: 32px;
+  }
+
+  .footer .row > div {
+    text-align: center;
+  }
 }
 
-@media (min-width: 576px){
-	.logo{
-		max-height: 75%;
-		max-width: 75%;
-		position:relative;
-	}
+@media (min-width: 576px) {
+  .logo {
+    max-height: 75%;
+    max-width: 75%;
+    position: relative;
+  }
 
-	#welcome h1{
-		font-size: 60px;
-	}
+  #welcome h1 {
+    font-size: 60px;
+  }
 
-	#welcome p{
-		font-size: 18px;
-	}
+  #welcome p {
+    font-size: 18px;
+  }
 
-	#about div+div{
- 		text-align: center;
- 	}
+  #about div + div {
+    text-align: center;
+  }
 
- 	#about div+div > img{
- 		width: 80%
- 	}
+  #about div + div > img {
+    width: 80%;
+  }
 
- 	#about div+div > h1{
- 		font-size: 60px;
- 	}
+  #about div + div > h1 {
+    font-size: 60px;
+  }
 
- 	#about div+div > p{
- 		font-size: 16px;
- 	}
+  #about div + div > p {
+    font-size: 16px;
+  }
 
- 	#projects div > h1{
- 		font-size: 50px;
- 		letter-spacing: 8px;
- 	}
+  #projects div > h1 {
+    font-size: 50px;
+    letter-spacing: 8px;
+  }
 
- 	#contact div > h1{
-		font-size: 50px;
-	}
+  #contact div > h1 {
+    font-size: 50px;
+  }
 
-	.footer .row > div{
-		text-align: center;
-	}
+  .footer .row > div {
+    text-align: center;
+  }
 }
 
-@media (min-width: 768px){
-	.logo{
-		max-height: 75%;
-		max-width: 75%;
-		position:relative;
-	}
+@media (min-width: 768px) {
+  .logo {
+    max-height: 75%;
+    max-width: 75%;
+    position: relative;
+  }
 
-	#welcome h1{
-		font-size: 64px;
-	}
-	#welcome p{
-		font-size: 20px;
-	}
+  #welcome h1 {
+    font-size: 64px;
+  }
+  #welcome p {
+    font-size: 20px;
+  }
 
-	#about div+div{
- 	text-align: center;
- 	}
+  #about div + div {
+    text-align: center;
+  }
 
- 	#about div+div > img{
- 		width: 60%
- 	}
+  #about div + div > img {
+    width: 60%;
+  }
 
- 	#about div+div > h1{
- 		font-size: 72px;
- 	}
+  #about div + div > h1 {
+    font-size: 72px;
+  }
 
- 	#about div+div > p{
- 		font-size: 20px;
- 	}
+  #about div + div > p {
+    font-size: 20px;
+  }
 
- 	#projects div > h1{
- 		font-size: 60px;
- 		letter-spacing: 8px;
- 	}
+  #projects div > h1 {
+    font-size: 60px;
+    letter-spacing: 8px;
+  }
 
- 	#contact div > h1{
-		font-size: 32px;
-	}
+  #contact div > h1 {
+    font-size: 32px;
+  }
 
-	.footer .row > div{
-		text-align: center;
-	}
+  .footer .row > div {
+    text-align: center;
+  }
 }
 
-@media (min-width: 992px){
-	.logo{
-		max-height: 75%;
-		max-width: 75%;
-		position:relative;
-	}
+@media (min-width: 992px) {
+  .logo {
+    max-height: 75%;
+    max-width: 75%;
+    position: relative;
+  }
 
-	#welcome h1{
-		font-size: 100px;
-	}
+  #welcome h1 {
+    font-size: 100px;
+  }
 
-	#welcome p{
-		font-size: 25px;
-	}
+  #welcome p {
+    font-size: 25px;
+  }
 
-	#about div+div{
- 	text-align: center;
- 	}
+  #about div + div {
+    text-align: center;
+  }
 
- 	#about div+div > img{
- 		width: 60%
- 	}
+  #about div + div > img {
+    width: 60%;
+  }
 
- 	#about div+div > h1{
- 		font-size: 72px;
- 	}
+  #about div + div > h1 {
+    font-size: 72px;
+  }
 
- 	#about div+div > p{
- 		font-size: 20px;
- 	}
+  #about div + div > p {
+    font-size: 20px;
+  }
 
- 	#projects div > h1{
- 		font-size: 72px;
- 		letter-spacing: 10px;
- 	}
+  #projects div > h1 {
+    font-size: 72px;
+    letter-spacing: 10px;
+  }
 
-	#contact div > h1{
-		font-size: 60px;
-	}
+  #contact div > h1 {
+    font-size: 60px;
+  }
 }
 
-@media(min-width: 1200px){
-	.logo{
-		max-height: 100%;
-		max-width: 100%;
-		position:relative;
-	}
+@media (min-width: 1200px) {
+  .logo {
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+  }
 
-	#about div+div{
- 	text-align: justify;
- 	}
+  #about div + div {
+    text-align: justify;
+  }
 
- 	.footer .row > div{
-		text-align: justify;
-	}
+  .footer .row > div {
+    text-align: justify;
+  }
 }
