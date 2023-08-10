@@ -34,6 +34,7 @@
 h1 {
   color: white; /* Fallback: assume this color ON TOP of image */
   background: url(https://2840374.fs1.hubspotusercontent-na1.net/hubfs/2840374/Neighbourhood%20Images%202021/culture-animation_best-q-large-size_v2.webp);
+  background-repeat: repeat-x;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
