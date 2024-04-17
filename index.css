@@ -1,6 +1,7 @@
 * {
   scroll-behavior: smooth;
 }
+
 .navbar {
   min-height: 0px !important;
 }
@@ -24,8 +25,8 @@
   letter-spacing: 1px;
 }
 
-.nav-pills .nav-link.active,
-.nav-pills .show > .nav-link {
+.nav-pills.nav-link.active,
+.nav-pills.show > .nav-link {
   background-color: transparent;
   border-bottom: 2px solid white;
   letter-spacing: 1px;
@@ -101,7 +102,7 @@ h1 {
 }
 
 /*media queries*/
-@media (min-width: 320px) {
+@media (max-width: 575.98px) {
   .logo {
     max-height: 75%;
     max-width: 75%;
@@ -141,12 +142,12 @@ h1 {
     font-size: 32px;
   }
 
-  .footer .row > div {
+  .footer.row > div {
     text-align: center;
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
   .logo {
     max-height: 75%;
     max-width: 75%;
@@ -186,12 +187,12 @@ h1 {
     font-size: 50px;
   }
 
-  .footer .row > div {
+  .footer.row > div {
     text-align: center;
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
   .logo {
     max-height: 75%;
     max-width: 75%;
@@ -201,6 +202,7 @@ h1 {
   #welcome h1 {
     font-size: 64px;
   }
+
   #welcome p {
     font-size: 20px;
   }
@@ -230,53 +232,12 @@ h1 {
     font-size: 32px;
   }
 
-  .footer .row > div {
+  .footer.row > div {
     text-align: center;
   }
 }
 
 @media (min-width: 992px) {
-  .logo {
-    max-height: 75%;
-    max-width: 75%;
-    position: relative;
-  }
-
-  #welcome h1 {
-    font-size: 100px;
-  }
-
-  #welcome p {
-    font-size: 25px;
-  }
-
-  #about div + div {
-    text-align: center;
-  }
-
-  #about div + div > img {
-    width: 60%;
-  }
-
-  #about div + div > h1 {
-    font-size: 72px;
-  }
-
-  #about div + div > p {
-    font-size: 20px;
-  }
-
-  #projects div > h1 {
-    font-size: 72px;
-    letter-spacing: 10px;
-  }
-
-  #contact div > h1 {
-    font-size: 60px;
-  }
-}
-
-@media (min-width: 1200px) {
   .logo {
     max-height: 100%;
     max-width: 100%;
